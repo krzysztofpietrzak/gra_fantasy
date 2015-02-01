@@ -1,0 +1,1 @@
+web: gunicorn gra.wsgi --log-file -
