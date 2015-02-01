@@ -10,6 +10,13 @@
         <p>
             Wybierz jedną ze stron i dołącz do pradawnego konfliktu.
         </p>
-
+        {% if user.is_authenticated %}
+            <p>Zalogowany użytkownik: <b>{{user.username}}</b></p>
+            <p><a href=/panel/>Panel postaci</a></p>
+            <p><a href="players" class="link_lista">Lista graczy</a></p>
+            <p><a href="/logout/">Wyloguj się</a></p>
+        {% else %}
+            <a href="/login/">Zaloguj się</a>  |   <a href="/register/">Rejestracja</a>
+        {% endif %}
     </div>
 {% endblock %}

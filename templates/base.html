@@ -2,13 +2,23 @@
 
 <!DOCTYPE html>
 <html>
-<head lang="PL">
+<head lang="pl">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-    <img src="http://www.thomryng.com/wp-content/uploads/2012/10/Common-Wombat.jpg"/>
+    {% if user.is_authenticated and gracz.rasa == 'czlowiek' %}
+        <img src="http://www.tarphoid.com/images/CKDV/knightBanner.jpg">
+
+    {% elif user.is_authenticated and gracz.rasa == 'goblin'%}
+        <img src="http://www.beastsofwar.com/wp-content/uploads/2012/02/Orcs-and-Goblins-Banner.jpg">
+    {% else %}
+        <img src="http://www.thomryng.com/wp-content/uploads/2012/10/Common-Wombat.jpg"/>
+    {% endif %}
+
+    <a href="/"><h1 class="title">Gra fantasy</h1></a>
+
     <hr>
     {% block header %}{% endblock %}
     <div>
