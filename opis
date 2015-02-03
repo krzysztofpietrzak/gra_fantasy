@@ -1,0 +1,100 @@
+Opis Jednostek(Człowiek)
+1.Wojownik- podstawowa jednostka. 
+#Atrybuty
+-HP 100
+-Pancerz  50
+-Atak 80
+-Obrona 60
+-Szybkość 80
+-Celność 90
+-Obrażenia 30
+#Wymagania
+-Koszary – poziom 1
+-Cywil - 1
+-Złoto – 20
+-Czas – 2min
+2.Łucznik 
+#Atrybuty
+-HP 100
+-Pancerz  20
+-Atak 90
+-Obrona 30
+-Szybkość 50
+-Celność 80
+-Obrażenia 60
+#Wymagania
+-Koszary – poziom 5
+-Cywil - 1
+-Złoto – 50
+-Czas – 3min
+3.Rycerz
+#Atrybuty
+-HP 100
+-Pancerz  80
+-Atak 110
+-Obrona 40
+-Szybkość 80
+-Celność 70
+-Obrażenia 70
+#Wymagania
+-Koszary – poziom 10
+-Cywil – 1
+-Koń - 1
+-Złoto – 100
+-Czas – 4min
+Opis jednostek (Goblin)
+1.Wojownik- podstawowa jednostka. 
+#Atrybuty
+-HP 100
+-Pancerz  20
+-Atak 90
+-Obrona 50
+-Szybkość 60
+-Celność 80
+-Obrażenia 45
+#Wymagania
+-Koszary – poziom 1
+-Technologie – poziom 1
+-Goblin  - 1
+-Złoto – 20
+-Czas – 2min
+2.Topornik 
+#Atrybuty
+-HP 100
+-Pancerz  20
+-Atak 80
+-Obrona 30
+-Szybkość 50
+-Celność 80
+-Obrażenia 60
+#Wymagania
+-Koszary – poziom 5
+-Technologie - poziom 3
+-Goblin  - 1
+-Złoto – 50
+-Czas – 3min
+3.Wilczy jeździec
+#Atrybuty
+-HP 100
+-Pancerz  50
+-Atak 110
+-Obrona 50
+-Szybkość 70
+-Celność 70
+-Obrażenia 80
+#Wymagania
+-Koszary – poziom 10
+-Technologie – poziom 6
+-Goblin – 1
+-Wilk - 1
+-Złoto – 100
+-Czas – 4min
+Opis budynków itp.
+1.Fort – zwiększa punkty obrony jednostkom jak również wybrane umiejętności dla konkretnej grupy podczas ataku nieprzyjaciela (np.  łucznikom zwiększa celność itp.) 
+Wstępnie:
+1 poziom = +5pkt  do obrony dla każdej jednostki
+1 poziom= +1% do celności dla każdego łucznika
+
+2.Kopalnia – głównym celem rozbudowy kopalni będzie zwiększenie wydobycia złota
+3.Uniwersytet/Chata proroka – miejsce w którym inwestujemy w najnowsze technologie które potrzebne będą nam do tworzenia coraz lepszych jednostek, fortów itd.
+4.Koszary – miejsce szkolenia i tworzenia jednostek. Dzięki rozbudowie zyskujemy możliwość tworzenia coraz lepszych jednostek
