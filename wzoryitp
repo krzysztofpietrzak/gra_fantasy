@@ -1,0 +1,52 @@
+Miasto
+      |
+      |
+      |
+      ---------->Kapalnia
+                  * 1gold/min ---> 1 obywatel
+                  * Lvl Kopalni- rozbudowa zwiększa max liczbę obywateli mogących pracować przy wydobywaniu:
+                        -1 poziom --> max 20
+                        -2 poziom --> 40
+                        -3 poziom --> 80
+                        itd
+                        
+      ---------->Fort
+                  * Lvl Fortu - rozbudowa fortu zwiększa punkty obrony jednostkom broniącym się. 
+                    Dodatkowo z rozbudowy kożystają Łucznicy którym poziom fortu zwiększa atrybut "celnosc"
+                        -1 poziom --> 5pkt obrony dla każdej jednostki + 1% celnosci dla łucznikow
+                        
+      ---------->Ratusz?Mieszkania
+                  * Lvl R?M - rozbudowa zwiększa max liczbę obywateli w mieście
+                        -1 poziom 100 obywateli
+                        -2 poziom 150 obywateli
+                  * Każda rekrutacja do wojska/pracy w kopalni odejmuje określoną liczbę obywateli
+                  * Populacja zwiększa/odnawia się w zależności od poziomu zadowolenia obywateli
+                  * Zadowolenie obywateli zyskujemy:
+                        -wygrywając wojny/bitwy itp
+                        -inwestując w uniwersytet(nowe technologie zadowoleni obywatele)
+                        -rozbudowując Ratusz?Mieszkania
+                        
+  Bitwa:
+      
+      #10 rund po każdej z rund przeliczane zostają na nowo pkt ataku,obrony itp
+      #Armia której jednostki jako pierwsze osiągną stratę w wysokości 80% przegrywa( tzn. zostanie tylko 20% początkowej liczby jednostek ) 
+      
+      *Atakujący
+        -HP=(Liczebność wojska * 100)+(Liczba Jednostek 1 * "pancerz jednostki 1")+...+(Liczba Jednostek n * "pancerz jednostki n")
+        -Atak = (Liczba jednostek 1 * "Atak 1" )+...+(Liczba jednostek n * "Atak n" )+(Liczba jednostek "nastawionych na atak" * 10)
+        -Obrona (Liczba jednostek 1 * "Obrona 1" )+...+(Liczba jednostek n * "Obrona n" )
+        -Szybkość (Liczba jednostek 1 * "Szybkosc 1" )+...+(Liczba jednostek n * "Szybkosc n" )
+        -Celność (Liczba jednostek 1 * "Celnosc 1" )+...+(Liczba jednostek n * "Celnosc n" )
+        -Obrażenia (Liczba jednostek 1 * "Obrażenia 1" )+...+(Liczba jednostek n * "Obrażenia n" )
+        
+      *Broniący się
+        -HP=(Liczebność wojska * 100)+(Liczba Jednostek 1 * "pancerz jednostki 1")+...+(Liczba Jednostek n * "pancerz jednostki n")
+        -Atak = (Liczba jednostek 1 * "Atak 1" )+...+(Liczba jednostek n * "Atak n" )
+        -Obrona (Liczba jednostek 1 * "Obrona 1" )+...+(Liczba jednostek n * "Obrona n" )+(Liczba jednostek "nastawionych na obronę" * 10)+(Liczba jednostek * (5 * lvl Fortu) )
+        -Szybkość (Liczba jednostek 1 * "Szybkosc 1" )+...+(Liczba jednostek n * "Szybkosc n" )
+        -Celność (Liczba jednostek 1 * "Celnosc 1" )+...+(Liczba jednostek n * "Celnosc n" )+( (1%*Lvl Fortu) * liczba lucznikow )
+        -Obrażenia (Liczba jednostek 1 * "Obrażenia 1" )+...+(Liczba jednostek n * "Obrażenia n" )
+        
+        
+        
+        
